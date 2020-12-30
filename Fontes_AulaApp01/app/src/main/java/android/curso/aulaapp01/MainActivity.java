@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
     private void initCampos() {
 
         primeiroNome.setText("");
+        primeiroNome.requestFocus();
         segundoNome.setText("");
         telefone.setText("");
         email.setText("");
